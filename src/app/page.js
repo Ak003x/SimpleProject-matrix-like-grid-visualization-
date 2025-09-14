@@ -1,5 +1,6 @@
 "use client";
-import globalcss from "./globals.css";
+import './globals.css'
+
 const images = [
   "https://picsum.photos/300?random=1",
   "https://picsum.photos/300?random=2",
