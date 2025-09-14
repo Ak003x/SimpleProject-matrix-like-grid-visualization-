@@ -1,14 +1,9 @@
 /** @type {import('next').NextConfig} */
 const isProd = process.env.NODE_ENV === 'production';
 
-const nextConfig = {
-  output: 'export', 
-  basePath: isProd ? '/SimpleProject-matrix-like-grid-visualization-' : '', 
-  trailingSlash: true,
-  images: {
-    unoptimized: true, 
-  },
+export default {
+  output: 'export',
+  basePath: isProd ? '/SimpleProject-matrix-like-grid-visualization-' : '',
+  // assetPrefix: isProd ? '/SimpleProject-matrix-like-grid-visualization-' : '',
 };
-
-export default nextConfig;
 
